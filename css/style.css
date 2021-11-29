@@ -387,7 +387,7 @@ body {
 }
 
 .tabs-link {
-  font-style: 20px;
+  font-size: 20px;
   line-height: 23px;
   text-decoration: none;
   color: #49494f;
@@ -552,7 +552,7 @@ body {
   color: #49494f;
   margin: 13px 25px 25px 25px;
 }
-
+/*993-1260*/
 @media (max-width: 1260px) {
   .container {
     max-width: 960px;
@@ -574,13 +574,19 @@ body {
     max-width: calc(50%-30px);
   }
 }
-
+/*731-992*/
 @media (max-width: 992px) {
   .search-form {
     order: 0;
   }
   .container {
     max-width: 750px;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .tabs {
+    justify-content: center;
   }
   .slide {
     padding: 70px;
@@ -592,13 +598,22 @@ body {
     margin-right: 40px;
   }
 }
-
+/*581-730*/
 @media (max-width: 730px) {
   .container {
     max-width: 525px;
   }
   .header {
     flex-wrap: wrap;
+  }
+  .slide-title {
+    font-size: 42px;
+  }
+  .delivery-week {
+    padding: 65px 0;
+  }
+  .section-title {
+    font-size: 28px;
   }
   .search-form {
     order: 5;
@@ -618,5 +633,96 @@ body {
   }
   .tabs-card {
     max-width: 100%;
+  }
+  .logo-image {
+    max-width: 80px;
+  }
+  .login {
+    padding: 14px 30px;
+  }
+  .shopping-cart {
+    width: 42px;
+    height: 42px;
+  }
+  .search-form {
+    min-width: 90%;
+  }
+  .slide {
+    padding: 25px;
+    min-height: 350px;
+  }
+  .slide-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .slide-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .slider-buttons {
+    right: 35px;
+    bottom: 25px;
+  }
+  .card {
+    padding: 25px;
+    min-height: 345px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-description {
+    font-size: 14px;
+  }
+  .card-price {
+    font-size: 18px;
+  }
+  .delivery-week {
+    padding: 50px 0;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .tabs-link {
+    font-size: 12px;
+    margin-right: 25px;
+  }
+  .tabs-price {
+    font-size: 20px;
+  }
+  .tabs-weight {
+    font-size: 15px;
+  }
+  .tabs-content {
+    text-align: center;
+  }
+  .tabs-image {
+    max-height: 35%;
+  }
+  .tabs-card {
+    max-width: 310px;
+    max-height: 400px;
+  }
+  .button-center {
+    width: 80%;
+  }
+  .section-white {
+    margin: 65px 0 80px 0;
+  }
+  .footer-logo {
+    width: 65px;
+  }
+  .footer-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .footer-link {
+    font-size: 12px;
+    margin-right: 0;
+    padding: 10px 0 10px 10px;
   }
 }
