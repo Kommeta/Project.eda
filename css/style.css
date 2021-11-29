@@ -647,6 +647,9 @@ body {
   .search-form {
     min-width: 90%;
   }
+  .slide-content {
+    margin-top: -30px;
+  }
   .slide {
     padding: 25px;
     min-height: 350px;
